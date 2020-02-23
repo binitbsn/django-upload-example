@@ -2,7 +2,9 @@ from django.shortcuts import render, redirect
 from django.views.generic import TemplateView, ListView, CreateView
 from django.core.files.storage import FileSystemStorage
 from django.urls import reverse_lazy
-
+                                            #### pip3 install --user django-crispy-forms
+                                            #### pip install --upgrade django-crispy-forms
+                                            #### pip install pillow
 from .forms import BookForm
 from .models import Book
 
